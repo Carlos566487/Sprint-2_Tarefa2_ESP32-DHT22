@@ -83,11 +83,12 @@ A Tarefa 2 foi executada com sucesso, validando a leitura de temperatura e umida
 
 ## 👥 Equipe
 
-João -  RM nº 565999
-Tayna -  RM nº 562491
-Carlos -  RM nº 566487
-Andrew -  RM nº 563646
-Vinicius -  RM nº 566269
+- João -    RM nº 565999
+- Tayna -   RM nº 562491
+- Carlos -  RM nº 566487
+- Andrew -  RM nº 563646
+- Vinicius -  RM nº 566269
+
 ---
 
 ## 🔗 Links Úteis
