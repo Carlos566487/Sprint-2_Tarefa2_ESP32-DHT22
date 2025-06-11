@@ -4,7 +4,7 @@
 
 Desenvolver e testar um código funcional para leitura de dados via sensor DHT22 conectado ao ESP32, exibindo os valores de temperatura e umidade no Monitor Serial em formato CSV.
 
-![Esquema de Circuito ESP32 e DHT22](prints/Esquema%20de%20Circuito%20ESP32%20e%20DHT22.png)
+
 
 ---
 
@@ -22,7 +22,7 @@ Timestamp,Temperatura,Umidade
 4. **Testes realizados** no simulador Wokwi, com verificação da variação dos dados e validação no Serial Monitor.
 
 ---
-
+![Esquema de Circuito ESP32 e DHT22](prints/Esquema%20de%20Circuito%20ESP32%20e%20DHT22.png)
 ## Conclusão
 
 A Tarefa 2 foi executada com sucesso, validando a leitura de temperatura e umidade do sensor DHT22 via ESP32. Os dados foram coletados corretamente e estão prontos para uso na análise da Tarefa 3.
