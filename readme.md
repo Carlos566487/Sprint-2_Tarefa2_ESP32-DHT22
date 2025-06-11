@@ -25,6 +25,24 @@ Sprint-2_Tarefa2_ESP32-DHT22/
 ├── README.md
 ├── codigo/
 │   └── codigo_sensor.ino
+    └── grafico
+        └── idea
+            └── workspace.xml
+            └── vcs.xml
+            └── modules.xml
+            └── misc.xml
+            └── graficos_part.Vinicius.iml
+            └── .name
+            └── .gitignore
+            └── inspectionProfiles
+                └── profiles_settings.xml
+                └── Project_Default.xml
+        └── src
+            └── __pycache__
+                └── graficos.cpython-313.pyc
+            └── dados_simulados_main.csv
+            └── graficos.py
+            └── main.py
 ├── dados/
 │   └── dados_sensor.csv
 └── prints/
