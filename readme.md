@@ -21,6 +21,9 @@ Sprint-2_Tarefa2_ESP32-DHT22/
 │   └── dados_sensor.csv
 └── prints/
     └── print_serial.png
+    └── grafico_dht22.png
+    └── Esquema de Circuito ESP32 e DHT22.png
+
 ```
 
 > **Descrição das pastas:**
