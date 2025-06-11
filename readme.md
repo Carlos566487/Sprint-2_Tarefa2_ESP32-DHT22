@@ -23,7 +23,6 @@ Sprint-2_Tarefa2_ESP32-DHT22/
     └── print_serial.png
     └── grafico_dht22.png
     └── Esquema de Circuito ESP32 e DHT22.png
-
 ```
 
 > **Descrição das pastas:**
@@ -40,7 +39,6 @@ Sprint-2_Tarefa2_ESP32-DHT22/
 A lógica do programa foi idealizada em etapas para garantir modularidade, clareza e facilidade de manutenção. Segue diagrama representando a estrutura principal:
 
 ![Esquema de Circuito ESP32 e DHT22](prints/Esquema%20de%20Circuito%20ESP32%20e%20DHT22.png)
-
 
 > **Fluxo de execução:**
 >
@@ -80,4 +78,21 @@ A lógica do programa foi idealizada em etapas para garantir modularidade, clare
 ## ✅ Conclusão
 
 A Tarefa 2 foi executada com sucesso, validando a leitura de temperatura e umidade do sensor DHT22 via ESP32. Os dados foram coletados corretamente e estão prontos para uso na análise da Tarefa 3.
+
 ---
+
+## 👥 Equipe
+
+João -  RM nº 565999
+Tayna -  RM nº 562491
+Carlos -  RM nº 566487
+Andrew -  RM nº 563646
+Vinicius -  RM nº 566269
+
+
+---
+
+## 🔗 Links Úteis
+
+- Repositório GitHub: `https://github.com/Carlos566487/Sprint-2_Tarefa2_ESP32-DHT22.git`
+
