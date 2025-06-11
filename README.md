@@ -17,7 +17,6 @@ Timestamp,Temperatura,Umidade
 4013,54.70,45.00
 ...
 
-## Idealização do Circuito
 ![Esquema de Circuito ESP32 e DHT22](prints/Esquema%20de%20Circuito%20ESP32%20e%20DHT22.png)
 ```
 4. **Testes realizados** no simulador Wokwi, com verificação da variação dos dados e validação no Serial Monitor.
