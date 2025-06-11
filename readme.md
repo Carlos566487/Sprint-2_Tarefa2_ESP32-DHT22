@@ -21,42 +21,69 @@ Nesta seção, apresentamos a organização dos arquivos do projeto, facilitando
 
 
 ```plaintext
-Sprint-2_Tarefa2_ESP32-DHT22/
-├── README.md
-├── codigo/
-│   └── codigo_sensor.ino
-    └── grafico
-        └── idea
-            └── workspace.xml
-            └── vcs.xml
-            └── modules.xml
-            └── misc.xml
-            └── graficos_part.Vinicius.iml
-            └── .name
-            └── .gitignore
-            └── inspectionProfiles
-                └── profiles_settings.xml
-                └── Project_Default.xml
-        └── src
-            └── __pycache__
-                └── graficos.cpython-313.pyc
-            └── dados_simulados_main.csv
-            └── graficos.py
-            └── main.py
-├── dados/
-│   └── dados_sensor.csv
-└── prints/
-    └── print_serial.png
-    └── grafico_dht22.png
-    └── Esquema de Circuito ESP32 e DHT22.png
+## 📁 Estrutura de Pastas
+
+Sprint-2_Tarefa2_ESP32-DHT22/  
+├── **README.md**  
+├── **codigo/**  
+│   ├─ `codigo_sensor.ino`  
+│   └─ **grafico/**  
+│      ├─ **idea/** (configurações do IDE e perfis de inspeção)  
+│      └─ **src/**  
+│         ├─ `main.py` (script principal)  
+│         ├─ `graficos.py` (funções de plotagem)  
+│         ├─ `dados_simulados_main.csv` (dados de teste)  
+│         └─ **__pycache__/** (bytecode compilado)  
+├── **dados/**  
+│   └─ `dados_sensor.csv` (leituras reais do DHT22)  
+└── **prints/**  
+    ├─ `print_serial.png`  
+    ├─ `grafico_dht22.png`  
+    ├─ `Esquema de Circuito ESP32 e DHT22.png`  
+    ├─ `variacao_temperatura_umidade.jpeg`  
+    ├─ `media_temperatura_umidade.jpeg`  
+    ├─ `distribuicao_temperatura_umidade.jpeg`  
+    └─ `deteccao_pico.jpg`
 ```
 
 > **Descrição das pastas:**
 >
-> - `codigo/`: Contém o sketch Arduino (`.ino`) para leitura do DHT22.
-> - `dados/`: Armazena o CSV com os dados coletados (Timestamp, Temperatura, Umidade).
-> - `prints/`: Imagens demonstrando o circuito, Monitor Serial e gráficos.
-> - `README.md`: Documentação do projeto.
+* **README.md**
+  Documento principal, com visão geral do projeto, instruções de uso e detalhes de cada tarefa.
+
+* **codigo/**
+  Contém todo o código-fonte e configurações de ambiente:
+
+  * **codigo\_sensor.ino**
+    Sketch Arduino para ESP32: lê e envia temperatura e umidade via DHT22.
+  * **grafico/**
+    Projeto Python para geração de gráficos:
+
+    * **idea/**
+      Metadados do IDE (PyCharm/WebStorm), incluindo perfis de inspeção e arquivos de configuração do workspace.
+    * **src/**
+      Fonte Python e dados simulados:
+
+      * **main.py** — Script principal que carrega os dados, chama funções de plotagem e exporta gráficos.
+      * **graficos.py** — Módulo com funções para criar diferentes tipos de gráficos (variação, média, distribuição e detecção de pico).
+      * **dados\_simulados\_main.csv** — Conjunto de dados sintéticos representando leituras de temperatura e umidade.
+      * ****pycache**/** — Bytecode Python compilado automaticamente.
+
+* **dados/**
+  Armazena dados reais coletados pelo ESP32:
+
+  * **dados\_sensor.csv** — Registro em CSV das leituras de temperatura e umidade capturadas via conexão serial.
+
+* **prints/**
+  Pasta de imagens e diagramas gerados pelo projeto:
+
+  * **print\_serial.png** — Captura de tela do terminal com saída serial do ESP32.
+  * **grafico\_dht22.png** — Exemplo de gráfico de temperatura versus umidade criado pelo script Python.
+  * **Esquema de Circuito ESP32 e DHT22.png** — Diagrama de conexão elétrica entre o microcontrolador e o sensor.
+  * **variacao\_temperatura\_umidade.jpeg** — Gráfico mostrando variação de temperatura e umidade ao longo do tempo.
+  * **media\_temperatura\_umidade.jpeg** — Gráfico da média móvel de temperatura e umidade.
+  * **distribuicao\_temperatura\_umidade.jpeg** — Histograma de distribuição das medições.
+  * **deteccao\_pico.jpg** — Gráfico destacando picos de temperatura e umidade detectados.
 
 ---
 
