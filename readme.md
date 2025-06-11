@@ -88,11 +88,9 @@ Tayna -  RM nº 562491
 Carlos -  RM nº 566487
 Andrew -  RM nº 563646
 Vinicius -  RM nº 566269
-
-
 ---
 
 ## 🔗 Links Úteis
 
 - Repositório GitHub: `https://github.com/Carlos566487/Sprint-2_Tarefa2_ESP32-DHT22.git`
-
+---
