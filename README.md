@@ -4,6 +4,8 @@
 
 Desenvolver e testar um código funcional para leitura de dados via sensor DHT22 conectado ao ESP32, exibindo os valores de temperatura e umidade no Monitor Serial em formato CSV.
 
+![Esquema de Circuito ESP32 e DHT22](prints/Esquema\ de\ Circuito\ ESP32\ e\ DHT22.png)
+
 ---
 
 ## Etapas realizadas
